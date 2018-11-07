@@ -1,0 +1,26 @@
+{
+    "name": "atlas/preset",
+    "description": "Atlas Preset",
+    "keywords": ["laravel preset"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rexford Kelly",
+            "email": "rexfordkelly@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Atlas\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Atlas\\Providers\\AtlasServiceProvider"
+            ]
+        }
+    }
+}

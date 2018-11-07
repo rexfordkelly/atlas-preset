@@ -1,5 +1,5 @@
 {
-    "name": "atlas/preset",
+    "name": "r10y/preset",
     "description": "Atlas Preset",
     "keywords": ["laravel preset"],
     "license": "MIT",
